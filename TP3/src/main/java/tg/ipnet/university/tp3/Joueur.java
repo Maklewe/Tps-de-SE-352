@@ -88,8 +88,8 @@ public class Joueur{
 	
 	@Override
 	public String toString() {
-		return "Joueur [nom=" + nom + ", prenom=" + prenom + ", numeroLicence=" + numeroLicence + ", nombrePoints="
-				+ points + "]";
+		return "Joueur \nnom:" + nom + "\nprenom:" + prenom + " \nnumeroLicence:" + numeroLicence + " \nnombrePoint:"
+                + points;
 	}
 	
 }
